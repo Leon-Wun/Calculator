@@ -1,0 +1,26 @@
+#container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 80px;
+  width: 400px;
+}
+
+.buttons {
+  border: 1px solid white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: white;
+  background-color: black;
+}
+
+#displayOutput {
+  grid-column: 1/5;
+}
+
+#button0 {
+  grid-column: 1/3;
+}
+
+#buttonEqual {
+  grid-row: 1/2;
+}
